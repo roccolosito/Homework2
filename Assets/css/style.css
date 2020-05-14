@@ -1,0 +1,31 @@
+* {
+    margin: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar,
+.intro {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-decoration: gray;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.button {
+    position: top;
+}
+
+.navbar-brand{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.ml-auto {
+    text-shadow: lightslategray;
+}
