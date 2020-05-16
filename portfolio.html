@@ -1,45 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rocco's Homepage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocco's Homepage</title>
 
-    <!--CSS Stylesheets-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <!--CSS Stylesheets-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style-portfolio.css">
 
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-  <!--Nav Bar, links to home, about, portfolio, contact--> 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Rocco Losito</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!--Nav Bar, links to home, about, portfolio, contact-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Rocco Losito</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Main page content with heading, and 4 app portfolio projects-->
+  <div class="container-fluid">
+
+    <section class="row">
+
+      <div class="col-md-4 col-xs" id="text">
+        <hr>
+        </hr>
+        <h1>Selected App Projects</h1>
       </div>
-    </nav>
+
+      <div class="col-md-4 col-xs apps" id="projects">
+        <img class="app-graphic" src="./assets/images/Coffee.jpg" alt="drawing of two bottles of coffee">
+        <h5>Coffee Please</h5>
+        <div class="row bottom-app">
+          <div class="col col-xs">
+            <img class="app-graphic" src="./assets/images/TV.jpg" alt="drawing of vintage television with static on screen">
+            <h5>Cut The Noise</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-xs apps">
+        <img class="app-graphic" src="./assets/images/Snoopy.jpg" alt="drawing of Snoopy and Tweety parade balloon">
+          <h5>Parade Route</h5>
+            <div class="row bottom-app">
+              <div class="col col-xs">
+                <img class="app-graphic" src="./assets/images/Moped.jpg" alt="drawing of vintage moped">
+                    <h5>Vroom!</h5>
+              </div>
+            </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <!--Sticky footer with Copyright-->
+  <footer>
+    <p class="container-fluid footer"> Copyright © 2020 Rocco Losito
+    </p>
+  </footer>
 
 </body>
+
 </html>

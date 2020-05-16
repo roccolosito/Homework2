@@ -1,0 +1,104 @@
+* {
+    margin: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-decoration: gray;
+    position: fixed;
+    width: 100%;
+    opacity: 100%;
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
+    font-size: 0.9rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.button {
+    position: top;
+}
+
+.navbar-brand{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-variant: small-caps;
+    padding-left: 1%;
+}
+
+.ml-auto {
+    text-shadow: lightslategray;
+}
+
+.container-fluid {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+#text h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  margin-left: 135px;
+}
+
+hr {
+    width: 55%;
+    margin-left: 135px;
+    margin-right: auto;
+    margin-top: 20%;
+    border-top: 0.25px solid lightgrey
+}
+
+#projects {
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border: 1px solid lightgray;
+  margin-top: 20%;
+  margin-bottom: 4%;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.5rem;
+    left: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: #f8f9fa;
+    }
+    .wrapper {
+      width: 600px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    body {
+      background-color: #f8f9fa;
+    }
+    .wrapper {
+      width: 600px;
+    }
+  }
