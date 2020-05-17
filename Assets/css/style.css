@@ -1,3 +1,4 @@
+/*Basic page & Nav bar styling*/
 * {
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
@@ -25,7 +26,7 @@
     position: top;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Lato', sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
@@ -33,14 +34,105 @@
     padding-left: 1%;
 }
 
-.container {
+/*Homepage styling*/
+#home {
     font-family: 'Lato', sans-serif;
-    margin-right: 6%;
-    margin-top: 10%;
+    margin-right: 4%;
+    margin-top: -50px;
+    margin-bottom: 0%;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 0.4rem;
 }
 
+#home-intro {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 0.2rem;
+    margin-top: -30px;
+}
+
+/*About Page styling*/
+.ml-auto {
+  text-shadow: lightslategray;
+}
+
+.main {
+  margin: 50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85rem;
+  padding-top: 40px;
+}
+
+.email {
+  font-weight: 999;
+}
+
+#about {
+  font-family: 'Lato', sans-serif;
+  padding-left: 70px;
+  padding-right: auto;
+  padding-top: 70px;
+  line-height: 5px;
+}
+
+hr {
+  width: 31.25%;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 0;
+  border-top: 0.25px solid lightgrey
+}
+
+/*Portfolio Page styling*/
+#portfolio-container {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+#text h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  margin-left: 135px;
+}
+
+#text hr {
+    width: 55%;
+    margin-left: 135px;
+    margin-right: auto;
+    margin-top: 20%;
+    border-top: 0.25px solid lightgrey
+}
+
+#projects {
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border: 1px solid lightgray;
+  margin-top: 20%;
+  margin-bottom: 4%;
+}
+
+/*Contact Page styling*/
+#contact-container {
+  font-family: 'Lato', sans-serif;
+  margin: 15%;
+  text-align: center;
+  font-size: 1.2rem;
+  float: left;
+}
+
+.col-sm-8 h1 {
+  padding-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+/*Universal Sticky Footer styling*/
 .footer {
     background-color: #f8f9fa;
     color: black;
@@ -56,19 +148,20 @@
     width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-      background-color: #f8f9fa;
-    }
-    .wrapper {
-      width: 600px;
-    }
+@media (max-width: 580px) { 
+   
+  #myName  {
+      float: left;
+      width: 100%;
+      text-align: center;
   }
-  @media screen and (max-width: 480px) {
-    body {
-      background-color: #f8f9fa;
-    }
-    .wrapper {
-      width: 600px;
-    }
+  
+  #main-container {
+      min-width: 100%;
   }
+
+  #mobile-alignment {
+      min-width: 100%;
+      justify-content: center;
+  }
+}

@@ -1,3 +1,10 @@
+# My Personal Webpage
+
+Welcome to my webpage. It consists of 4 (four) main pages: Home, About, Portfolio, and Contact.
+The Homepage is the first page the user sees--it has my picture and a simple greeting. The About page has a paragraph outlining some of my experience, education and background. The Portfolio page showcases some of my selected app projects that I've worked on. And finally, the
+Contact page gives a form allowing folks to send me a direct message if interested. Thanks.
+
+
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
