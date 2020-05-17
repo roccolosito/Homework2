@@ -148,19 +148,23 @@ img {
     width: 100%;
 }
 
-@media (max-width: 580px) { 
+/*Media Query styling*/
+@media screen and (max-width: 580px) { 
    
-  #myName  {
+  #name  {
       float: left;
       width: 100%;
       text-align: center;
   }
+
+  #about  {
+    display: block;
   
   #main-container {
       min-width: 100%;
   }
 
-  #mobile-alignment {
+  #navbarSupportedContent {
       min-width: 100%;
       justify-content: center;
   }
