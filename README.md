@@ -11,3 +11,7 @@ Here is a link to the deployed site: https://roccolosito.github.io/responsivePor
 
 # Screenshots of the 4 Pages:
 
+![Homepage screenshot](homepage.png)
+![About screenshot](about.png)
+![Portfolio screenshot](portfolio.png)
+![Contact screenshot](contact.png)
