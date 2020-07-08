@@ -83,6 +83,13 @@ hr {
   border-top: 0.25px solid lightgrey
 }
 
+#about a {
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+  color: black;
+  text-decoration: underline;
+}
+
 /*Portfolio Page styling*/
 #portfolio-container {
   font-family: 'Lato', sans-serif;
@@ -105,20 +112,33 @@ hr {
     border-top: 0.25px solid lightgrey
 }
 
-#projects {
+/* #projects {
   font-family: 'Lato', sans-serif;
   margin: auto;
+} */
+
+#projects a {
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+  color: rgb(14, 13, 13);
+}
+
+#projects2 a {
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+  color: rgb(14, 13, 13);
 }
 
 img {
+  display: block;
   height: 300px;
-  width: 300px;
-  border: 1px solid lightgray;
+  width: 350px;
+  border: 0.25px solid lightgray;
   margin-top: 20%;
   margin-bottom: 4%;
 }
 
-/*Contact Page styling*/
+/*Contact Page styling*/  
 #contact-container {
   font-family: 'Lato', sans-serif;
   margin: 15%;
@@ -159,8 +179,9 @@ img {
 
   #about  {
     display: block;
-  
-  #main-container {
+  }
+
+  #portfolio-container {
       min-width: 100%;
   }
 
