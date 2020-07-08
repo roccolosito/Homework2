@@ -9,9 +9,19 @@ It utilizes HTML5, Bootstrap, Javascript, Google Fonts, Font Awesome, and CSS.
 Here is a link to the deployed site: https://roccolosito.github.io/responsivePortfolio/
 
 
-# Screenshots of the 4 Pages:
+## Visuals:
 
+Homepage:
 ![Homepagescreenshot](./screenshots/Homepage.png)
+
+About Page:
 ![Aboutscreenshot](./screenshots/About.png)
+
+Portfolio Page:
 ![Portfolioscreenshot](./screenshots/Portfolio.png)
+
+Contact Page:
 ![Contactscreenshot](./screenshots/Contact.png)
+
+- - -
+Copyright (c) 2020 Rocco Losito. All Rights Reserved.
