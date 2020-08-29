@@ -4,6 +4,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 .navbar {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -15,6 +19,7 @@
     top: 0;
     z-index: 1;
     font-size: 0.9rem;
+    background-color: #f5f5f5;
 }
 
 .nav-link:hover {
@@ -155,7 +160,7 @@ img {
 
 /*Universal Sticky Footer styling*/
 .footer {
-    background-color: #f8f9fa;
+    background-color: #f5f5f5;
     color: black;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -182,8 +187,13 @@ img {
     display: block;
   }
 
+  #projects2 {
+    float: left;
+    /* display: inline; */
+  }
+
   #portfolio-container {
-      min-width: 100%;
+      /* min-width: 100%; */
   }
 
   #navbarSupportedContent {
