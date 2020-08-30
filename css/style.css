@@ -10,7 +10,7 @@ body {
 
 .navbar {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 250;
     text-decoration: gray;
     position: fixed;
     width: 100%;
@@ -22,9 +22,13 @@ body {
     background-color: #fafafa;
 }
 
+#navbarSupportedContent a {
+    color: rgb(81, 88, 94)
+}
+
 .nav-link:hover {
-    font-weight: bold;
-    font-weight: 600;
+    /* font-weight: bolder; */
+    font-weight: 999;
 }
 
 .button {
@@ -125,12 +129,6 @@ hr {
 }
 
 #projects2 a {
-  font-family: 'Lato', sans-serif;
-  margin: auto;
-  color: rgb(14, 13, 13);
-}
-
-#projects3 a {
   font-family: 'Lato', sans-serif;
   margin: auto;
   color: rgb(14, 13, 13);
